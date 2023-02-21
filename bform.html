@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking form</title>
+    <style>
+         form{
+    background-color: rgba(243, 255, 240, 0.867);
+   
+  }
+  .but{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+  }
+   .but:hover{
+      background-color: blueviolet;
+      color: white;
+
+   }
+    </style>
+</head>
+<body>
+    <div class="book">
+                    
+        <form>
+          <h2>Tour Booking Form</h2>
+          Enter Tour Code<sup style="color: red;">*</sup>:<input type="text" name="t1" value=""><br><br>
+          FUll Name <sup style="color: red;">*</sup>:<input type="text" name="t1" placeholder="First Name">&nbsp;&nbsp;
+                    <input type="text" name="t3" placeholder="Last Name"><br><br>
+          E-mail<sup style="color: red;">*</sup>:<input type="email" name="t4" value="" placeholder="ex;myname@example.com"><br><br>
+          Phone NUmber<sup style="color: red;">*</sup>:<select>
+            <option value="">91</option>
+            <option value="">92</option>
+            <option value="">93</option>
+            <option value="">213</option>
+            <option value="">1-684</option>
+            <option value="">355</option>
+          </select>&nbsp;&nbsp;<input type="text" name="" id="" placeholder="0123456789"><br><br>
+          Departure Date/<br>time(approximately)<sup style="color: red;">*</sup>:<input type="date" name="d1" value="">&nbsp;&nbsp;
+                                                        <input type="time"><br><br>
+         Return Date/<br>time(approximately)<sup style="color: red;">*</sup>:<input type="date" name="d1" value="">&nbsp;&nbsp;
+                                                        <input type="time"><br><br>
+          Pickup Address(Airport Or Hotel)<sup style="color: red;">*</sup>:<br><textarea style="height: 50px;  width: 180px;">Type your Address....</textarea><br><br>
+          Drop Address(Airport Or Hotel)<sup style="color: red;">*</sup>:<br><textarea style="height: 50px;  width: 180px;">Type your Address....</textarea><br><br>
+          Create Your Own Customize Tour:<br><textarea style="height: 50px;  width: 180px;">Type your query....</textarea>
+          <p>Here you can create<br>your own tour with<br> destinations and duration<br>What your goining<br>say.</p>
+          Vehicle Type<sup style="color:red ;">*</sup>: <select name="" id="">
+            <option></option>
+            <option value="">car(3 PAX) $ 60 per day</option>
+            <option value="">Small Coach(4-8 PAX) $ 70 per day</option>
+            <option value="">Coach (8-15 PAX) $ 110 per day</option>
+            <option value="">Large Coach (15-25 PAX) 4 130 per day</option>
+          </select><br><br>
+         Number Of Passenger<sup style="color:red ;">*</sup>:<input type="text" name="t8" value=""><br><br>
+         Additional Message:<br><textarea style="height: 50px;  width: 180px;">Type your Message....</textarea><br>Coupon Code:<input type="text" name="t9">
+         <p>Enter here coupon code<br>for 10% off for your tour</p>
+         <input type="button" name="b1" class="but" value="Submit Your Booking" >
+        </form>
+      
+      </div>
+</body>
+</html>
